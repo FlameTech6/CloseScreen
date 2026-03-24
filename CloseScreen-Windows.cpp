@@ -4,7 +4,7 @@
 #define MONITOR_STANBY 1
 int main()
 {
-	//о╒фа
+	//Turn off the monitor
 	PostMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, MONITOR_OFF);
 	return 0;
 }
